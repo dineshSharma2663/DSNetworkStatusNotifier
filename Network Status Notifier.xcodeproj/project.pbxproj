@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B555302F1E6ACC6500DB2568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555302E1E6ACC6500DB2568 /* AppDelegate.swift */; };
+		B55530311E6ACC6500DB2568 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55530301E6ACC6500DB2568 /* ViewController.swift */; };
+		B55530341E6ACC6500DB2568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55530321E6ACC6500DB2568 /* Main.storyboard */; };
+		B55530361E6ACC6500DB2568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55530351E6ACC6500DB2568 /* Assets.xcassets */; };
+		B55530391E6ACC6500DB2568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55530371E6ACC6500DB2568 /* LaunchScreen.storyboard */; };
+		B55530441E6ACC6500DB2568 /* Network_Status_NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55530431E6ACC6500DB2568 /* Network_Status_NotifierTests.swift */; };
+		B555304F1E6ACC6500DB2568 /* Network_Status_NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555304E1E6ACC6500DB2568 /* Network_Status_NotifierUITests.swift */; };
+		B555305D1E6ACF4500DB2568 /* NetworkStatusNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555305C1E6ACF4500DB2568 /* NetworkStatusNotifier.swift */; };
+		B555305F1E6AD03F00DB2568 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555305E1E6AD03F00DB2568 /* Reachability.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B55530401E6ACC6500DB2568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55530231E6ACC6400DB2568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B555302A1E6ACC6400DB2568;
+			remoteInfo = "Network Status Notifier";
+		};
+		B555304B1E6ACC6500DB2568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55530231E6ACC6400DB2568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B555302A1E6ACC6400DB2568;
+			remoteInfo = "Network Status Notifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B555302B1E6ACC6400DB2568 /* Network Status Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Status Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B555302E1E6ACC6500DB2568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B55530301E6ACC6500DB2568 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B55530331E6ACC6500DB2568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B55530351E6ACC6500DB2568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B55530381E6ACC6500DB2568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B555303A1E6ACC6500DB2568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B555303F1E6ACC6500DB2568 /* Network Status NotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Network Status NotifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55530431E6ACC6500DB2568 /* Network_Status_NotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_Status_NotifierTests.swift; sourceTree = "<group>"; };
+		B55530451E6ACC6500DB2568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B555304A1E6ACC6500DB2568 /* Network Status NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Network Status NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B555304E1E6ACC6500DB2568 /* Network_Status_NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_Status_NotifierUITests.swift; sourceTree = "<group>"; };
+		B55530501E6ACC6500DB2568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B555305C1E6ACF4500DB2568 /* NetworkStatusNotifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkStatusNotifier.swift; sourceTree = "<group>"; };
+		B555305E1E6AD03F00DB2568 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55530281E6ACC6400DB2568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B555303C1E6ACC6500DB2568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55530471E6ACC6500DB2568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B55530221E6ACC6400DB2568 = {
+			isa = PBXGroup;
+			children = (
+				B555302D1E6ACC6400DB2568 /* Network Status Notifier */,
+				B55530421E6ACC6500DB2568 /* Network Status NotifierTests */,
+				B555304D1E6ACC6500DB2568 /* Network Status NotifierUITests */,
+				B555302C1E6ACC6400DB2568 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B555302C1E6ACC6400DB2568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B555302B1E6ACC6400DB2568 /* Network Status Notifier.app */,
+				B555303F1E6ACC6500DB2568 /* Network Status NotifierTests.xctest */,
+				B555304A1E6ACC6500DB2568 /* Network Status NotifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B555302D1E6ACC6400DB2568 /* Network Status Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				B555305E1E6AD03F00DB2568 /* Reachability.swift */,
+				B555302E1E6ACC6500DB2568 /* AppDelegate.swift */,
+				B55530301E6ACC6500DB2568 /* ViewController.swift */,
+				B55530321E6ACC6500DB2568 /* Main.storyboard */,
+				B55530351E6ACC6500DB2568 /* Assets.xcassets */,
+				B55530371E6ACC6500DB2568 /* LaunchScreen.storyboard */,
+				B555303A1E6ACC6500DB2568 /* Info.plist */,
+				B555305C1E6ACF4500DB2568 /* NetworkStatusNotifier.swift */,
+			);
+			path = "Network Status Notifier";
+			sourceTree = "<group>";
+		};
+		B55530421E6ACC6500DB2568 /* Network Status NotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				B55530431E6ACC6500DB2568 /* Network_Status_NotifierTests.swift */,
+				B55530451E6ACC6500DB2568 /* Info.plist */,
+			);
+			path = "Network Status NotifierTests";
+			sourceTree = "<group>";
+		};
+		B555304D1E6ACC6500DB2568 /* Network Status NotifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B555304E1E6ACC6500DB2568 /* Network_Status_NotifierUITests.swift */,
+				B55530501E6ACC6500DB2568 /* Info.plist */,
+			);
+			path = "Network Status NotifierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B555302A1E6ACC6400DB2568 /* Network Status Notifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55530531E6ACC6500DB2568 /* Build configuration list for PBXNativeTarget "Network Status Notifier" */;
+			buildPhases = (
+				B55530271E6ACC6400DB2568 /* Sources */,
+				B55530281E6ACC6400DB2568 /* Frameworks */,
+				B55530291E6ACC6400DB2568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Network Status Notifier";
+			productName = "Network Status Notifier";
+			productReference = B555302B1E6ACC6400DB2568 /* Network Status Notifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B555303E1E6ACC6500DB2568 /* Network Status NotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55530561E6ACC6500DB2568 /* Build configuration list for PBXNativeTarget "Network Status NotifierTests" */;
+			buildPhases = (
+				B555303B1E6ACC6500DB2568 /* Sources */,
+				B555303C1E6ACC6500DB2568 /* Frameworks */,
+				B555303D1E6ACC6500DB2568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55530411E6ACC6500DB2568 /* PBXTargetDependency */,
+			);
+			name = "Network Status NotifierTests";
+			productName = "Network Status NotifierTests";
+			productReference = B555303F1E6ACC6500DB2568 /* Network Status NotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B55530491E6ACC6500DB2568 /* Network Status NotifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55530591E6ACC6500DB2568 /* Build configuration list for PBXNativeTarget "Network Status NotifierUITests" */;
+			buildPhases = (
+				B55530461E6ACC6500DB2568 /* Sources */,
+				B55530471E6ACC6500DB2568 /* Frameworks */,
+				B55530481E6ACC6500DB2568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B555304C1E6ACC6500DB2568 /* PBXTargetDependency */,
+			);
+			name = "Network Status NotifierUITests";
+			productName = "Network Status NotifierUITests";
+			productReference = B555304A1E6ACC6500DB2568 /* Network Status NotifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55530231E6ACC6400DB2568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "dinesh sharma";
+				TargetAttributes = {
+					B555302A1E6ACC6400DB2568 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SQ8786VRXN;
+						ProvisioningStyle = Automatic;
+					};
+					B555303E1E6ACC6500DB2568 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SQ8786VRXN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B555302A1E6ACC6400DB2568;
+					};
+					B55530491E6ACC6500DB2568 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SQ8786VRXN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B555302A1E6ACC6400DB2568;
+					};
+				};
+			};
+			buildConfigurationList = B55530261E6ACC6400DB2568 /* Build configuration list for PBXProject "Network Status Notifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B55530221E6ACC6400DB2568;
+			productRefGroup = B555302C1E6ACC6400DB2568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B555302A1E6ACC6400DB2568 /* Network Status Notifier */,
+				B555303E1E6ACC6500DB2568 /* Network Status NotifierTests */,
+				B55530491E6ACC6500DB2568 /* Network Status NotifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55530291E6ACC6400DB2568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55530391E6ACC6500DB2568 /* LaunchScreen.storyboard in Resources */,
+				B55530361E6ACC6500DB2568 /* Assets.xcassets in Resources */,
+				B55530341E6ACC6500DB2568 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B555303D1E6ACC6500DB2568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55530481E6ACC6500DB2568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55530271E6ACC6400DB2568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55530311E6ACC6500DB2568 /* ViewController.swift in Sources */,
+				B555305D1E6ACF4500DB2568 /* NetworkStatusNotifier.swift in Sources */,
+				B555305F1E6AD03F00DB2568 /* Reachability.swift in Sources */,
+				B555302F1E6ACC6500DB2568 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B555303B1E6ACC6500DB2568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55530441E6ACC6500DB2568 /* Network_Status_NotifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55530461E6ACC6500DB2568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B555304F1E6ACC6500DB2568 /* Network_Status_NotifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B55530411E6ACC6500DB2568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B555302A1E6ACC6400DB2568 /* Network Status Notifier */;
+			targetProxy = B55530401E6ACC6500DB2568 /* PBXContainerItemProxy */;
+		};
+		B555304C1E6ACC6500DB2568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B555302A1E6ACC6400DB2568 /* Network Status Notifier */;
+			targetProxy = B555304B1E6ACC6500DB2568 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B55530321E6ACC6500DB2568 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55530331E6ACC6500DB2568 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B55530371E6ACC6500DB2568 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55530381E6ACC6500DB2568 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55530511E6ACC6500DB2568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B55530521E6ACC6500DB2568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55530541E6ACC6500DB2568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SQ8786VRXN;
+				INFOPLIST_FILE = "Network Status Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charpixel.com.Network-Status-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B55530551E6ACC6500DB2568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SQ8786VRXN;
+				INFOPLIST_FILE = "Network Status Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charpixel.com.Network-Status-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B55530571E6ACC6500DB2568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SQ8786VRXN;
+				INFOPLIST_FILE = "Network Status NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charpixel.com.Network-Status-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Network Status Notifier.app/Network Status Notifier";
+			};
+			name = Debug;
+		};
+		B55530581E6ACC6500DB2568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SQ8786VRXN;
+				INFOPLIST_FILE = "Network Status NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charpixel.com.Network-Status-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Network Status Notifier.app/Network Status Notifier";
+			};
+			name = Release;
+		};
+		B555305A1E6ACC6500DB2568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SQ8786VRXN;
+				INFOPLIST_FILE = "Network Status NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charpixel.com.Network-Status-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Network Status Notifier";
+			};
+			name = Debug;
+		};
+		B555305B1E6ACC6500DB2568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SQ8786VRXN;
+				INFOPLIST_FILE = "Network Status NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charpixel.com.Network-Status-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Network Status Notifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55530261E6ACC6400DB2568 /* Build configuration list for PBXProject "Network Status Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55530511E6ACC6500DB2568 /* Debug */,
+				B55530521E6ACC6500DB2568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55530531E6ACC6500DB2568 /* Build configuration list for PBXNativeTarget "Network Status Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55530541E6ACC6500DB2568 /* Debug */,
+				B55530551E6ACC6500DB2568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B55530561E6ACC6500DB2568 /* Build configuration list for PBXNativeTarget "Network Status NotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55530571E6ACC6500DB2568 /* Debug */,
+				B55530581E6ACC6500DB2568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B55530591E6ACC6500DB2568 /* Build configuration list for PBXNativeTarget "Network Status NotifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B555305A1E6ACC6500DB2568 /* Debug */,
+				B555305B1E6ACC6500DB2568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B55530231E6ACC6400DB2568 /* Project object */;
+}
