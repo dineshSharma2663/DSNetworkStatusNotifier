@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5282FC81E7ADD1500B1D4D8 /* offline.png in Resources */ = {isa = PBXBuildFile; fileRef = B5282FC61E7ADD1500B1D4D8 /* offline.png */; };
+		B5282FC91E7ADD1500B1D4D8 /* online.png in Resources */ = {isa = PBXBuildFile; fileRef = B5282FC71E7ADD1500B1D4D8 /* online.png */; };
 		B555302F1E6ACC6500DB2568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555302E1E6ACC6500DB2568 /* AppDelegate.swift */; };
 		B55530311E6ACC6500DB2568 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55530301E6ACC6500DB2568 /* ViewController.swift */; };
 		B55530341E6ACC6500DB2568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55530321E6ACC6500DB2568 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5282FC61E7ADD1500B1D4D8 /* offline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offline.png; sourceTree = SOURCE_ROOT; };
+		B5282FC71E7ADD1500B1D4D8 /* online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online.png; sourceTree = SOURCE_ROOT; };
 		B555302B1E6ACC6400DB2568 /* Network Status Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Status Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B555302E1E6ACC6500DB2568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B55530301E6ACC6500DB2568 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 		B555302D1E6ACC6400DB2568 /* Network Status Notifier */ = {
 			isa = PBXGroup;
 			children = (
+				B5282FC61E7ADD1500B1D4D8 /* offline.png */,
+				B5282FC71E7ADD1500B1D4D8 /* online.png */,
 				B555305E1E6AD03F00DB2568 /* Reachability.swift */,
 				B555302E1E6ACC6500DB2568 /* AppDelegate.swift */,
 				B55530301E6ACC6500DB2568 /* ViewController.swift */,
@@ -242,7 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55530391E6ACC6500DB2568 /* LaunchScreen.storyboard in Resources */,
+				B5282FC81E7ADD1500B1D4D8 /* offline.png in Resources */,
 				B55530361E6ACC6500DB2568 /* Assets.xcassets in Resources */,
+				B5282FC91E7ADD1500B1D4D8 /* online.png in Resources */,
 				B55530341E6ACC6500DB2568 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +530,7 @@
 				B55530551E6ACC6500DB2568 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B55530561E6ACC6500DB2568 /* Build configuration list for PBXNativeTarget "Network Status NotifierTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +539,7 @@
 				B55530581E6ACC6500DB2568 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B55530591E6ACC6500DB2568 /* Build configuration list for PBXNativeTarget "Network Status NotifierUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +548,7 @@
 				B555305B1E6ACC6500DB2568 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -23,8 +23,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRE-fD-UqN">
-                                <rect key="frame" x="36" y="110" width="221" height="34"/>
-                                <state key="normal" title="Change Online Background">
+                                <rect key="frame" x="36" y="110" width="239" height="34"/>
+                                <state key="normal" title="Tap to set Online Background">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="selected">
@@ -35,12 +35,12 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u5I-Tg-iox">
-                                <rect key="frame" x="295" y="110" width="34" height="34"/>
+                                <rect key="frame" x="313" y="110" width="16" height="34"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0L7-3X-FM4">
-                                <rect key="frame" x="36" y="244" width="223" height="34"/>
-                                <state key="normal" title="Change Offline Background">
+                                <rect key="frame" x="36" y="244" width="241" height="34"/>
+                                <state key="normal" title="Tap to set Offline Background">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="selected">
@@ -51,7 +51,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jon-rc-1Vd">
-                                <rect key="frame" x="297" y="244" width="32" height="34"/>
+                                <rect key="frame" x="315" y="244" width="14" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Offline Message" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vQ5-rP-18r">

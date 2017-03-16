@@ -48,12 +48,10 @@ class NetworkStatusNotifier : UIResponder,StatusBarNotificationProtocol
         super.init()
         
         NotificationCenter.default.addObserver(self, selector: #selector(reachabilityChanged), name:ReachabilityChangedNotification, object: nil)
-       
     }
     
     //MARK: - ADD NETWORK STATUS NOTIFIER
     func addNetWorkNotifier(offlineMessageText:String = DefaultNetworkStyle.offlineMessage,offlineBackColor:UIColor = DefaultNetworkStyle.offlineBackColor, onlineMessageText:String = DefaultNetworkStyle.onlineMessage,onlineBackColor : UIColor = DefaultNetworkStyle.onlineBackColor, textColor:UIColor = DefaultNetworkStyle.textColor ) {
-        
         
         messageTextColor = textColor
         onlineModeBackgroundColor = onlineBackColor
@@ -61,9 +59,16 @@ class NetworkStatusNotifier : UIResponder,StatusBarNotificationProtocol
         offlineMessage = offlineMessageText
         onlineMessage = onlineMessageText
         
+        //Initialing instance to get notifified for network changes
+        
         if reachability == nil {
          reachability = Reachability.init()
          try? reachability?.startNotifier()
+        }
+        
+        // For first time app launch, we have checked internet status
+        if !(reachability?.isReachable)!{
+            showNetworkStatusBar(message: offlineMessage, dismissAfter: nil, style: .offline)
         }
     }
     
