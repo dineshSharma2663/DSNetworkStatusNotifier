@@ -1,7 +1,6 @@
 
-https://github.com/dineshSharma2663/DSNetworkStatusNotifier/blob/master/offline.png
 
-https://github.com/dineshSharma2663/DSNetworkStatusNotifier/blob/master/online.png
+![Online Preview](https://github.com/dineshSharma2663/DSNetworkStatusNotifier/blob/master/online.png)
 
 
 #Supported Platoform
@@ -24,4 +23,10 @@ You can use this feature after just doing couple of things mentioned below:
 b.) Till now you have confirmed to 'NetworkStatusNotifier' class. Only thing left is, you have to just add a notifier which will be called when you internet statuses changes. For this, just call function 'addNetWorkNotifier()' in your 'applicationDidBecomeActive' function. You can customise your status bar view providing different arguments in 'addNetWorkNotifier' as shown below:
 
 #func addNetWorkNotifier(offlineMessageText:String = DefaultNetworkStyle.offlineMessage,offlineBackColor:UIColor = DefaultNetworkStyle.offlineBackColor, onlineMessageText:String = DefaultNetworkStyle.onlineMessage,onlineBackColor : UIColor = DefaultNetworkStyle.onlineBackColor, textColor:UIColor = DefaultNetworkStyle.textColor )
+
+
+here you can see how it looks like.
+
+![Offline Preview](https://github.com/dineshSharma2663/DSNetworkStatusNotifier/blob/master/offline.png)
+
 
