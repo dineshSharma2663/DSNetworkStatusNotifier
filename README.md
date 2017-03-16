@@ -1,6 +1,6 @@
 
 
-![Online Preview](https://github.com/dineshSharma2663/DSNetworkStatusNotifier/blob/master/online.png)
+![Online Preview](https://github.com/dineshSharma2663/DSNetworkStatusNotifier/blob/master/Network%20Status%20Notifier/online.png)
 
 
 #Supported Platoform
@@ -27,6 +27,6 @@ b.) Till now you have confirmed to 'NetworkStatusNotifier' class. Only thing lef
 
 here you can see how it looks like.
 
-![Offline Preview](https://github.com/dineshSharma2663/DSNetworkStatusNotifier/blob/master/offline.png)
+![Offline Preview](https://github.com/dineshSharma2663/DSNetworkStatusNotifier/blob/master/Network%20Status%20Notifier/offline.png)
 
 
